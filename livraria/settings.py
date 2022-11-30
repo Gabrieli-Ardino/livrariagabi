@@ -64,6 +64,8 @@ REST_FRAMEWORK = {
     ),
 }
 
+AUTH_USER_MODEL = "core.Usuario"
+
 ROOT_URLCONF = "livraria.urls"
 
 TEMPLATES = [
